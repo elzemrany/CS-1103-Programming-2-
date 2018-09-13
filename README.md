@@ -1,2 +1,2 @@
-# CS-1103-Programming-2-
+# CS-1103-Programming-2
 we are going to be building on knowledge gained in CS 1102, but we are going on to cover some of the more advanced fundamentals of programming including basic data structures (such as lists, stacks and queues, binary trees, and hash tables), recursion, common algorithms (such as searching and sorting), and generic programming. This course also looks more deeply at object-oriented programming, including the use of class hierarchies.
