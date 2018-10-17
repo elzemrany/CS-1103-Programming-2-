@@ -1,0 +1,5 @@
+Who should be responsible for catching and handling exceptions: the computer or the computer program?
+
+The Computer program that is Exception handler is responsible for handling the exception in java. When an error occurs within a method, the method creates an object and hands it off to the runtime system. Creating an exception object and handing it to the runtime system is called throwing an exception.
+
+Exception handler chosen is said to catch the exception. If the runtime system exhaustively searches all the methods on the call stack without finding an appropriate exception handler
