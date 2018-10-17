@@ -1,0 +1,24 @@
+When writing a data structure what should be our guidelines for choosing the right Java Collection?
+
+Java Collections are:
+
+Lists
+
+Sets
+
+Maps
+
+Queue
+
+Explanation:
+
+
+--Pick the general type of organization that data demands such Hashmap or list.
+
+--Implementation of chosen type that needs "minimum functionality".
+
+Example: Do not pick a sorted data structure if there is no need for sorted data.
+
+--While choosing a data structure in java, one should know how to use it and the complexity of the functions that are to be performed.
+
+--Choose such a data structure that enhances quality and readability of a code.
