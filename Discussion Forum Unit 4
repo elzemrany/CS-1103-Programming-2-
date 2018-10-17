@@ -1,0 +1,14 @@
+The class Object defines an equal() method to compare objects.
+
+Specify advantages and disadvantages of using this method and 
+suggest an alternative for equality.
+
+The class Object defines an equal() method to compare objects.
+
+Specify advantages and disadvantages of using this method and 
+suggest an alternative for equality.
+
+equals (): This method returns true if the object that is called has the same value as the object that we place an argument.
+Returns true if the Date object that is called has the same value as the object we are placing as an argument. 
+The advantage is that we can check two objects for equality, the disadvantage that it can be very difficult to override correctly.
+I think that equality is even simpler. It is possible to determine the values to be equal, and if the result is equal, it is true, but if the result is a mistake just return in false.
