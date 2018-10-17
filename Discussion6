@@ -1,0 +1,30 @@
+
+What are the differences of handling Socket and ServerSocket ?
+Socket :
+
+1. Socket class is used for client side. we have to create an object of Socket class for any networking application
+
+2. Socket class encapsulates the behavior of the active side. (i.e. the client)
+
+3. This class implements client sockets. A socket is an endpoint for communication between two machines.
+
+4. Socket class is available in java.net package
+
+5. Server class, we can create like below
+
+Socket s = new Socket(ipaddress, portnumber);
+
+ServerSocket:
+
+1. ServerSocket class is used for server side. we have to create an object of ServerSocket class for any networking application to support server operations.
+
+2. ServerSocket class encapsulates the behavior of the passive side (i.e the server)
+
+3. This ServerSoket implements server sockets. A server socket waits for requests to come in over the network from clients.
+
+4. ServerSocket class is available in java.net package
+
+5. ServerSocket class, we can create like this
+
+ServerSocket server = new ServerSocket(portnumber);
+
