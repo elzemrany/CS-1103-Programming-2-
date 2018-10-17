@@ -1,0 +1,23 @@
+
+When should we consider using recursive algorithms when writing a program?
+
+Discuss in terms of advantages and disadvantages
+
+
+Advantages:
+
+-        Reduce unnecessary calling of function.
+
+-        The function does return for itself. Which calls itself back.
+
+-        Problems can be resolved in an easy way instead of a much larger redundancy solution.
+
+If the function calls itself too much, it may cause a problem in the memory of the device, because the function whenever it calls itself will occupy a certain amount of memory in the device, so if it calls itself too many times (a thousand times), the system memory may be full and make the system too slow Until it completely stops working.
+
+Disadvantages:
+
+-        usually not considered when the program is small and running on a PC.
+
+-        It usually uses more memory for the stack.
+
+-        The recursive solution is always logical and it is very difficult to trace.
