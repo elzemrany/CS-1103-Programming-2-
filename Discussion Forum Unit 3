@@ -1,0 +1,13 @@
+ Using ADTs (abstract data types) has advantages for program modularity. Discuss
+
+Using ADTs (abstract data types) has advantages for program modularity. Discuss
+
+Abstraction: A very important method used to make it easy to write commands to programmers, it makes you able to do what you want without having to know all the details in which it was executed. If Abstraction makes you deal with things superficially instead of delving into the details of complex codes.
+
+If you plan to build a program that allows users to send suggestions about the application via e-mail, in this case, you will not have to worry about how Java commands deal with protocols that work when emails are sent through this application because you are not responsible for them. Sun's job is to develop Java. They tell you that to send an e-mail just use these simple commands.
+
+Abstraction is a technique used to hide program execution details. To apply the concept of abstraction, we use the word abstract under specific conditions.
+
+ADTs aid program modularity. ADTs operations are implemented once and if working as expected, all parts of the current program that need to perform ADTs operation will call on the services of the ADTs routine. The routine can even be transferred into a new project. Thus, fulfilling many of the objectives of program modularity.
+
+specifications of abstract data types can be used to investigate and demonstrate the properties of abstract data types themselves, that's will lead to a better understanding of the programs and uses.
